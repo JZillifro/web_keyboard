@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="func.js"></script>
+  </head>
+  <body>
+    <div class="keyBoard">
+      <button class="key" onmousedown="playNote('c')" onmouseup="stopNote('c')"></button>
+      <button class="key" onmousedown="playNote('d')" onmouseup="stopNote('d')"></button>
+      <button class="key" onmousedown="playNote('e')" onmouseup="stopNote('e')"></button>
+      <button class="key" onmousedown="playNote('f')" onmouseup="stopNote('f')"></button>
+      <button class="key" onmousedown="playNote('g')" onmouseup="stopNote('g')"></button>
+      <button class="key" onmousedown="playNote('a')" onmouseup="stopNote('a')"></button>
+      <button class="key" onmousedown="playNote('b')" onmouseup="stopNote('b')"></button>
+    </div>
+    <div class="keyBoard sharpKeys">
+      <div class="emptySharp"></div>
+      <button class="key sharp" onmousedown="playNote('c#')" onmouseup="stopNote('c#')"></button>
+      <button class="key sharp" onmousedown="playNote('d#')" onmouseup="stopNote('d#')"></button>
+      <div class="emptySharp"></div>
+      <button class="key sharp" onmousedown="playNote('f#')" onmouseup="stopNote('f#')"></button>
+      <button class="key sharp" onmousedown="playNote('g#')" onmouseup="stopNote('g#')"></button>
+      <button class="key sharp" onmousedown="playNote('a#')" onmouseup="stopNote('a#')"></button>
+      <div class="emptySharp"></div>
+    </div>
+  </body>
+</html>

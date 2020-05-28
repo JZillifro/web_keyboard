@@ -1,0 +1,31 @@
+body{
+  background-image: url("https://www.sketchuptextureclub.com/public/texture_f/1-fine-wood-seamless.jpg");
+}
+.keyBoard{
+  position: absolute;
+  width: 99%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+.key{
+  height: 100%;
+  width: 13.28%;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.sharpKeys{
+  height: 40%;
+  justify-content: space-between;
+}
+
+.sharp{
+  background-color: #2F2F2F;
+  width: 7.14%;
+}
+
+.emptySharp{
+  width: 7.14%;
+}

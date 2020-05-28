@@ -1,0 +1,44 @@
+body{
+  background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/0538_Seamless_Wood/final.jpg);
+}
+
+.keyBoard{
+  position: absolute;
+  display: flex;
+  width: 99%;
+  height: 89%;
+  justify-content: center;
+}
+
+.key{
+  width: 13.28%;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 7px 7px 0px 0px white;
+}
+
+.key:active{
+  box-shadow: none;
+  transform: translate(7px, 7px);
+}
+
+.sharp{
+  background-color: #2F2F2F;
+  width: 7%;
+  box-shadow: 5px 5px 0px 0px #2F2F2F;
+}
+
+.key:active{
+  box-shadow: none;
+  transform: translate(5px, 5px);
+}
+
+.emptySharp{
+  width: 7%;
+}
+
+.sharpKeys{
+  height: 40%;
+  justify-content: space-between;
+}

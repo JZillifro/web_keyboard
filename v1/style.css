@@ -1,0 +1,52 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/72/ba/ae/72baae11cd4beb4e686e182d0ae4aad3.jpg");
+}
+
+.key {
+  background-color: white;
+  font-size: 40px;
+  width: 13.25%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 7px 7px 0px 0px white;
+  border-color: black;
+}
+
+.key:active {
+  transform: translate(7px, 7px);
+  box-shadow: none;
+}
+
+.sharp {
+  color: white;
+  background-color: #2F2F2F;
+  width: 7%;
+  box-shadow: 5px 5px 0px 0px #2F2F2F;
+  border-color: black;
+}
+
+.sharp:active {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.emptySharp {
+  width: 7%;
+  height: 100%;
+}
+
+.keyContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  height:90%;
+}
+
+.keyContainerSharp {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  height:45%;
+}
